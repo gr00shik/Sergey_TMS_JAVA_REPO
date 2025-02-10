@@ -1,3 +1,4 @@
 rootProject.name = 'Sergey_TMS_JAVA_REPO'
+include 'lesson1'
 include 'lesson2'
 

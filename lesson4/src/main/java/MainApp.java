@@ -6,9 +6,9 @@ public class MainApp {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("PLEASE ENTER THE FIRST NUMBER: ");
+        System.out.println("PLEASE USER ENTER THE FIRST NUMBER: ");
         int number1 = scanner.nextInt();
-        System.out.println("PLEASE ENTER THE SECOND NUMBER: ");
+        System.out.println("PLEASE USER ENTER THE SECOND NUMBER: ");
         int number2 = scanner.nextInt();
 
         int sum = 0;
@@ -16,7 +16,9 @@ public class MainApp {
 
         while (number1 <= number2) {
             sum += number1;
+            System.out.println("Sum: "  +   sum);
             count++;
+            System.out.println("Count: " + count);
             number1++;
         }
 

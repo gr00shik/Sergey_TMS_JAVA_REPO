@@ -7,6 +7,8 @@ public class MainApp {
 
         while (value % 10 == 0) {
             count++;
+
+            value = value / 10;
         }
 
         System.out.println(count);

@@ -6,25 +6,23 @@ public class MainApp {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please user enter the first number: ");
+        System.out.println("PLEASE USER ENTER THE FIRST NUMBER: ");
         int number1 = scanner.nextInt();
-        System.out.println("Please user enter the second number: ");
+        System.out.println("PLEASE USER ENTER THE SECOND NUMBER: ");
         int number2 = scanner.nextInt();
 
         int sum = 0;
         int count = 0;
 
-        for (int i = number1; i <= number2; i++) {
-
-            sum = sum + i;
+        while (number1 <= number2) {
+            sum += number1;
             System.out.println("Sum: "  +   sum);
             count++;
             System.out.println("Count: " + count);
-
+            number1++;
         }
 
         System.out.println(sum/count);
-
 
     }
 
